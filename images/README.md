@@ -2,7 +2,7 @@
 
 This directory is meant to store screenshots, diagrams, and topology images for the lab.
 
-Use these subfolders:
+subfolders:
 
 - `architecture/`
 - `screenshots/`
