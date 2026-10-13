@@ -13,11 +13,11 @@ The lab is centered around skills such as:
 - Windows Server 2022 installation and configuration
 - Active Directory Domain Services (AD DS)
 - DNS and DHCP
-- Hyper-V or VM-based lab operations
-- File and storage services
+- Proxmox lab operations
+- File and storage services (DFSN/R,NTFS)
 - Group Policy and user administration
-- Remote administration and PowerShell
-- Monitoring, backup basics, and troubleshooting
+- Remote administration 
+- Backup services and Scripting
 
 ## Lab Overview
 
@@ -31,9 +31,8 @@ The environment is designed to be simple, realistic, and expandable. It is inten
 - DNS services
 - DHCP services
 - File server role
-- Hyper-V host or virtualization platform
-- Management workstation / admin workstation
-- Optional additional Windows Server test machines
+- Virtualization platform
+- Workstations
 
 ## Repository Structure
 
