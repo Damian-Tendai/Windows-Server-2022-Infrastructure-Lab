@@ -13,11 +13,10 @@ The lab is designed to model a small enterprise-like network, with a centralized
 ```text
 Home Network / Internet
         |
-        +--> Router / Firewall
+        +--> Router (Windows ICS sharing)
                     |
-                    +--> Management Workstation
                     |
-                    +--> Hyper-V or Virtualization Host
+                    +--> Hyper-V or Virtualization Host (Proxmox)
                             |
                             +--> Domain Controller (Windows Server 2022)
                             |
@@ -45,7 +44,7 @@ Home Network / Internet
 - Reduces manual setup effort
 - Helps simulate a scalable environment
 
-### 4. Hyper-V Host
+### 4. Virtualisation Host (Proxmox)
 - Runs virtual machines
 - Allows isolated testing and service expansion
 - Keeps the environment flexible and manageable
@@ -62,17 +61,7 @@ Home Network / Internet
 - Build a repeatable lab environment
 - Keep the design simple but scalable
 
-## Expansion Ideas
-
-Possible future additions include:
-
-- Additional domain members
-- IIS or web server deployments
-- File server hardening and permissions testing
-- Backup and recovery exercises
-- Group Policy baselines
-- Monitoring and logging practice
 
 ## Notes
 
-This architecture will evolve over time as more services are introduced. When changes are made, they should be documented with screenshots and brief notes for future reference.
+This architecture will evolve over time as more services are introduced. When changes are made, they will be documented with screenshots and brief notes for future reference.
